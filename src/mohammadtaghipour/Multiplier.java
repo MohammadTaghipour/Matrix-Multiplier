@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.util.Random;
 
-// Mohammad_Taghipour_99352012
-
 /**
  * An instance of this class is used to multiply two n*n matrices with random values <br>
  * The constructor of this class gets a value for initializing the matrix size
