@@ -1,18 +1,16 @@
-## Getting Started
+## Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This program is a calculator for multiplying two square matrices. All you have to do is create an instance of the multiplier class and enter an Integer value in the constructor as the length of the matrix.
+This program also has the ability to save the result in a text file after performing the calculations and display it to the user.
 
-## Folder Structure
+## How to use?!
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```Java
+        Multiplier matrixMultiplier = new Multiplier(4);
+        matrixMultiplier.initializeMatrix();
+        matrixMultiplier.printMatrix(matrixMultiplier.getA());
+        matrixMultiplier.printMatrix(matrixMultiplier.getB());
+        matrixMultiplier.doMultiplication();
+        matrixMultiplier.saveResultInTextFile();
+        matrixMultiplier.openFile();
+```
